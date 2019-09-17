@@ -12,3 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // * Make 'public' a static folder
 app.use(express.static("public"));
+
+// Start the server
+app.listen(PORT, function () {
+    console.log(`Listening on PORT: ${PORT}`);
+});
