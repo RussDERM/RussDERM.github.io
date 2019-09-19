@@ -11,6 +11,34 @@ body {
     background-color: lightslategray;
 }
 
+/* * Color Band */
+.color-band {
+    background: linear-gradient(318deg, #dc00ff, #00fff6, #ffee00);
+    background-size: 300% 300%;
+    height: 10px;
+    width: 100vm;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 /* * Nav */
 
 .nav {
@@ -46,7 +74,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  margin: 1px;
+  margin: 50px 0px 1px 0px;
 }
 
 .logo {
@@ -54,6 +82,8 @@ body {
     height: 200px;
 }
 
+
+/* * Hamburger Styling */
 .nav-icon {
   margin: 1em;
   width: 30px;
