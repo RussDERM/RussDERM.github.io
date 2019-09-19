@@ -1,0 +1,84 @@
+/* GOOGLE FONTS */
+/* 
+font-family: 'Carrois Gothic', sans-serif;
+font-family: 'Medula One', cursive;
+font-family: 'Carrois Gothic SC', sans-serif; 
+*/
+
+/* * Tester */
+
+body {
+    background-color: lightslategray;
+}
+
+/* * Nav */
+
+.nav {
+    display: flex;
+    background-color: yellow;
+    /* min-height: 400px; */
+    min-width: 400px;
+    width: 70%;
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6; 
+    align-items: baseline;
+}
+
+.nav-item {
+    margin: 0px 10px 0px 10px;
+}
+
+.twitter-bird {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 1px;
+}
+
+.logo {
+    width: 400px;
+    height: 200px;
+}
+
+.nav-icon {
+  margin: 1em;
+  width: 30px;
+}
+
+.nav-icon:after, 
+.nav-icon:before, 
+.nav-icon div {
+  background-color: black;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 2px;
+  margin: 6px 0;
+  transition: all .4s ease-in;
+}
+
+.nav-icon:hover:before {
+  transform: translateY(8px) rotate(315deg);
+}
+
+.nav-icon:hover:after {
+  transform: translateY(-8px) rotate(-315deg);
+}
+
+.nav-icon:hover div {
+  transform: scale(.01);
+}
