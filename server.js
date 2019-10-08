@@ -4,7 +4,7 @@ const logger = require("morgan");
 require("dotenv").config();
 // *Githil Pages Deploy
 var ghpages = require("gh-pages");
-ghpages.publish("RED-Portfolio-Page", function(err) {});
+ghpages.publish("RED-Portfolio-Page", { add: true }, function(err) {});
 
 var PORT = process.env.PORT;
 
