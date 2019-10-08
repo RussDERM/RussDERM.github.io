@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RussDERM/russDERM.github.io/public"
+    "url": "git+https://github.com/RussDERM/russDERM.github.io"
   },
   "author": "RED",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RussDERM/RED-Portfolio-Page/issues"
   },
-  "homepage": "https://russDERM.github.io",
+  "homepage": "https://russDERM.github.io/index.html",
   "dependencies": {
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
