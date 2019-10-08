@@ -1,5 +1,6 @@
 const express = require("express");
 const logger = require("morgan");
+const path = require("path");
 // * dotenv
 require("dotenv").config();
 // *Githil Pages Deploy
@@ -15,6 +16,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // * Make 'public' a static folder
 app.use(express.static("public"));
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+});
 
 // Start the server
 app.listen(PORT, function() {
