@@ -66,6 +66,7 @@ body {
 /*                     */
 /* * Nav */
 /*                     */
+
 .nav-container {
   background: #fff;
   padding: 20px 20px;
@@ -78,13 +79,10 @@ body {
 
 .nav {
   display: flex;
-  /* justify-content: space-around; */
-  /* min-height: 400px; */
   min-width: 500px;
   background: #fff;
   padding: 20px 20px;
   border-radius: 5px;
-  /* box-shadow: 5px 55px 50px -20px #b6b6b6;  */
   align-items: center;
 }
 
@@ -101,17 +99,21 @@ body {
 .social {
   display: flex;
   min-width: 500px;
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: flex-end;
 }
 
-.container {
+.icon {
+  padding: 0px 7px 0px 0px;
+}
+
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 50vh;
-}
+} */
 
 .navLogo {
   width: 100px;
@@ -190,4 +192,72 @@ body {
 
 #navOverlayIcon:hover div {
   transform: scale(0.01);
+}
+
+/*                           */
+/* * Body */
+/*                           */
+
+.big-container {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.header-image {
+  display: flex;
+  padding: 50px;
+}
+
+.header-image img {
+  margin: auto;
+}
+
+/*                           */
+/* * Project Section Styling */
+/*                           */
+
+.project-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  flex: 100%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  letter-spacing: 15px;
+  color: white;
+  max-width: 1000px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  order: 3;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  letter-spacing: 15px;
+  color: white;
+  max-width: 1000px;
+}
+
+.project-icon {
+  font-size: 15px;
+}
+
+.project-tiles {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.project-tiles img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
 }

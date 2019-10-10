@@ -28,21 +28,65 @@
       <div id="navIcon" onclick="openNav()"></div>
       <li class="nav-item"></i>HOME</li>
       <li class="nav-item"></i>ABOUT</li>
-      <li class="nav-item"></i>WORKS</li>
+      <li class="nav-item"></i>PROJECTS</li>
     </ul>
     <img class="navLogo" src="./images/RED large EXPORT.png" alt="R.E.D.">
     <ul class="social">
-      <i class="fab fa-lg fa-github"></i>
-      <i class="fab fa-lg fa-linkedin"></i>
+      <i class="icon fas fa-envelope-open"></i>
+      <i class="icon fab fa-lg fa-github"></i>
+      <i class="icon fab fa-lg fa-linkedin"></i>
     </ul>
   </div>
   <!-- * End Nav Bar -->
 
-  <div class="container">
-    <img class="logo" src="./images/RED large EXPORT.png" alt="R.E.D.">
+<div class="big-container">
+
+    <div class="header-image">
+      <img class="logo" src="./images/RED large EXPORT.png" alt="R.E.D.">
+    </div>
+    
+    <div class="project-title">
+      <i class="project-icon far fa-circle"></i>
+        <h1>
+          PROJECTS
+        </h1>
+      <i class="project-icon far fa-circle"></i>
+    </div>
+
+    <div class="container projects">
+        <!-- Memory Game  -->
+      <div class="container project-tiles">
+          <a href="https://russderm.github.io/Memory-Game-in-React/">
+          <img src="./images/memoryImage.png" alt="" srcset="">
+          </a>
+        </div>
+        <!-- Memory Game  -->
+      <div class="container project-tiles">
+          <a href="https://russderm.github.io/Memory-Game-in-React/">
+          <img src="./images/memoryImage.png" alt="" srcset="">
+          </a>
+        </div>
+        <!-- Memory Game  -->
+      <div class="container project-tiles">
+          <a href="https://russderm.github.io/Memory-Game-in-React/">
+          <img src="./images/memoryImage.png" alt="" srcset="">
+          </a>
+        </div>
+        <!-- Memory Game  -->
+      <div class="container project-tiles">
+          <a href="https://russderm.github.io/Memory-Game-in-React/">
+          <img src="./images/memoryImage.png" alt="" srcset="">
+          </a>
+        </div>
+        <!-- Memory Game  -->
+      <div class="container project-tiles">
+          <a href="https://russderm.github.io/Memory-Game-in-React/">
+          <img src="./images/memoryImage.png" alt="" srcset="">
+          </a>
+        </div>
+    </div>
+  
   </div>
-  
-  
   
   
   
@@ -57,8 +101,7 @@
     <div class="overlay-content">
         <div id="navOverlayIcon" onclick="closeNav()"></div>
       <a href="#">ABOUT</a>
-      <a href="#">SERVICES</a>
-      <a href="#">CLIENTS</a>
+      <a href="#">PROJECTS</a>
       <a href="#">CONTACT </a>
     </div>
 
@@ -71,7 +114,17 @@
 
   <!-- Nav Script -->
   <script>
-    // Function is called when "nav-icon" is clicked
+    // Scroll Reveal Animations
+    ScrollReveal().reveal('.project-title', {
+      origin: 'left', 
+      distance: '150%', 
+      delay: 50,
+      duration: 700,
+      easing: 'ease-in-out'
+    });
+
+
+    // * Function is called when "nav-icon" is clicked
     function openNav() {
       // Overlay Control
       document.getElementById("navOverlay").style.width = "100%";
@@ -89,6 +142,10 @@
     }
   </script>
 
+  <!-- *Scrollreveal Import -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- *jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
