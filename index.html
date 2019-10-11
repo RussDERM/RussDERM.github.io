@@ -54,36 +54,48 @@
     </div>
 
     <div class="container projects">
-        <!-- Memory Game  -->
+        <!--* Begin React Book Search  -->
       <div class="container project-tiles">
-          <a href="https://russderm.github.io/Memory-Game-in-React/">
-          <img src="./images/memoryImage.png" alt="" srcset="">
+          <a class="image-holder" target="_blank" href="https://stormy-castle-58403.herokuapp.com/">
+            <img class="project-image" src="./images/reactBooks.png"  alt="React Book Search">
           </a>
-        </div>
-        <!-- Memory Game  -->
+          <div class="text-box">
+            <hr>
+            <p class="title">REACT BOOK SEARCH</p>
+            <hr>
+            <p class="description">
+              A Full-Stack application demonstrating the MERN stack.
+            </p>
+            <div class="tech-icons">
+              <i class="fab fa-react"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-js-square"></i>
+            </div>
+          </div>
+      </div>
+      <!-- *End React Book Search -->
+
+        <!--* Begin Memory Game  -->
       <div class="container project-tiles">
-          <a href="https://russderm.github.io/Memory-Game-in-React/">
-          <img src="./images/memoryImage.png" alt="" srcset="">
+          <a class="image-holder" target="_blank" href="https://russderm.github.io/Memory-Game-in-React/">
+            <img class="project-image" src="./images/memoryImage.png"  alt="Memory Game">
           </a>
-        </div>
-        <!-- Memory Game  -->
-      <div class="container project-tiles">
-          <a href="https://russderm.github.io/Memory-Game-in-React/">
-          <img src="./images/memoryImage.png" alt="" srcset="">
-          </a>
-        </div>
-        <!-- Memory Game  -->
-      <div class="container project-tiles">
-          <a href="https://russderm.github.io/Memory-Game-in-React/">
-          <img src="./images/memoryImage.png" alt="" srcset="">
-          </a>
-        </div>
-        <!-- Memory Game  -->
-      <div class="container project-tiles">
-          <a href="https://russderm.github.io/Memory-Game-in-React/">
-          <img src="./images/memoryImage.png" alt="" srcset="">
-          </a>
-        </div>
+          <div class="text-box">
+            <hr>
+            <p class="title">REACT MEMORY GAME</p>
+            <hr>
+            <p class="description">
+              A simple game built in React, demonstrating the use of stateful components.
+            </p>
+            <div class="tech-icons">
+              <i class="fab fa-react"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-js-square"></i>
+            </div>
+          </div>
+      </div>
+      <!-- *End Memory Game -->
+
     </div>
   
   </div>
@@ -116,10 +128,19 @@
   <script>
     // Scroll Reveal Animations
     ScrollReveal().reveal('.project-title', {
-      origin: 'left', 
-      distance: '150%', 
       delay: 50,
       duration: 700,
+      origin: 'left', 
+      distance: '150%', 
+      easing: 'ease-in-out'
+    });
+
+    ScrollReveal().reveal('.project-tiles', {
+      delay: 300,
+      duration: 700,
+      origin: 'left',
+      interval: 250, 
+      distance: '150%', 
       easing: 'ease-in-out'
     });
 
