@@ -127,6 +127,10 @@ body {
   height: 200px;
 }
 
+a {
+  color: black;
+}
+
 /*                          */
 /* * Hamburger Icon Styling */
 /*                          */

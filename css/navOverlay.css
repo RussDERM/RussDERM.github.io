@@ -7,14 +7,15 @@
   z-index: -1;
   top: 0;
   left: 0;
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0);
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 65%,
     rgba(22, 22, 22, 0.8029586834733894) 100%,
     rgba(43, 43, 43, 0.6376925770308124) 100%
-  );
+  ); */
+  background-color: black;
   overflow-x: hidden;
   transition: 0.75s;
   transition-timing-function: ease-in-out;
