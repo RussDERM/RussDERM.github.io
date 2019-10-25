@@ -1,3 +1,0 @@
-# RED-Portfolio-Page
-
-test
